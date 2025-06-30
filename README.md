@@ -1,5 +1,5 @@
 
-# Expense Tracker
+# Expense Tracker 
 
 A full-stack expense tracking system built with **React (Vite)** on the frontend and **Node.js + MySQL** on the backend.
 
