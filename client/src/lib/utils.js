@@ -12,7 +12,7 @@ export function formatDate(date) {
     month: "short",
     day: "numeric",
   });
-}
+};
 
 export function formatCurrency(amount) {
   if (amount === null || amount === undefined) return "₹0.00";
@@ -20,7 +20,7 @@ export function formatCurrency(amount) {
     style: "currency",
     currency: "INR",
   }).format(amount);
-}
+};
 
 
 export function getDateRange(range) {
@@ -46,4 +46,4 @@ export function getDateRange(range) {
 }
 export function generateId() {
   return Date.now().toString(36) + Math.random().toString(36).substr(2);
-}
+};

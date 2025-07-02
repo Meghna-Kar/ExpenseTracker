@@ -163,7 +163,6 @@ const Dashboard = () => {
 
         {/* Filters */}
         <ExpenseFilters onChange={handleFiltersChange} users={users} />
-
         {/* Form and Expense List */}
         <div className="grid grid-cols-1 xl:grid-cols-4 gap-8">
           <div className="xl:col-span-1">
@@ -181,8 +180,7 @@ const Dashboard = () => {
               expenses={expenses}
               loading={loading}
               onEditExpense={handleEditExpense}
-              onDeleteComplete={loadExpenses}
-            />
+              onDeleteComplete={loadExpenses}/>
           </div>
         </div>
 
